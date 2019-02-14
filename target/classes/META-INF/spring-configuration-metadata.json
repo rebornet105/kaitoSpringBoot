@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "my1",
+      "type": "com.vocaloid.model.MyProperties1",
+      "sourceType": "com.vocaloid.model.MyProperties1"
+    },
+    {
+      "name": "my2",
+      "type": "com.vocaloid.model.MyProperties2",
+      "sourceType": "com.vocaloid.model.MyProperties2"
+    }
+  ],
+  "properties": [
+    {
+      "name": "my1.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.vocaloid.model.MyProperties1",
+      "defaultValue": 0
+    },
+    {
+      "name": "my1.name",
+      "type": "java.lang.String",
+      "sourceType": "com.vocaloid.model.MyProperties1"
+    },
+    {
+      "name": "my2.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.vocaloid.model.MyProperties2",
+      "defaultValue": 0
+    },
+    {
+      "name": "my2.email",
+      "type": "java.lang.String",
+      "sourceType": "com.vocaloid.model.MyProperties2"
+    },
+    {
+      "name": "my2.name",
+      "type": "java.lang.String",
+      "sourceType": "com.vocaloid.model.MyProperties2"
+    }
+  ],
+  "hints": []
+}
